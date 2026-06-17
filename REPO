@@ -72,9 +72,9 @@ f:84564e9cf7ea7efecbf6389e5cbe5fbd:libfm-extra/.md5sum
 f:d03dae40b2f698f6b3b6d0ee2cba58fc:pciutils/.footprint
 f:1ca34954624f7165f729f22b71478f48:pciutils/Pkgfile
 f:5cec7d32541cee6e4f4e2ab8e2b0fc9a:pciutils/.md5sum
-f:872e0a34cf3c83aea6953bf78be1e384:expat/.footprint
-f:04ea8be5b0f169a1ad0c061915953d65:expat/Pkgfile
-f:45dce64eb21f415ccdca8b19185a1cff:expat/.md5sum
+f:a747b2a72dd21b3a9ee8fe311a485a2d:expat/.footprint
+f:f91b85f7c58ca3efd477e7169e3d7899:expat/Pkgfile
+f:765bc701e509514a611474680e321851:expat/.md5sum
 f:33f021ae8773decb27d0461028bb88ce:stella/.footprint
 f:b9c0e9bbd62a1bd707d2d53a6fcdd546:stella/post-install
 f:75d666cbab1ee6bf8acf8c1e8ecdd724:stella/Pkgfile
