@@ -1,0 +1,23 @@
+# Description: Free library for arbitrary precision arithmetic
+# URL: http://gmplib.org/
+# Maintainer: Jose Beneyto, sepen at crux-arm dot nu
+# Depends on:
+
+name=gcc48-libgmp
+version=6.1.2
+release=1
+source=(https://ftp.gnu.org/gnu/gmp/gmp-$version.tar.xz)
+
+build() {
+    cd gmp-$version
+
+    ./configure \
+        --prefix=/usr/gcc48 \
+        --enable-cxx \
+        --build=arm-unknown-linux-gnueabihf
+
+    make
+    make DESTDIR=$PKG install
+
+    rm -r $PKG/usr/gcc48/share
+}
